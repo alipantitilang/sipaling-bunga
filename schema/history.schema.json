@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sipal\u00ading Bunga History Event",
+  "type": "object",
+  "required": [
+    "event_id",
+    "story_id",
+    "timestamp",
+    "event_type"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "story_id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "before": {},
+    "after": {},
+    "metadata": {
+      "type": "object"
+    }
+  }
+}

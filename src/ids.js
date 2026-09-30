@@ -1,0 +1,1 @@
+export function createStoryId(){throw new Error("Not implemented")} export function createInputCode(name,flower,sequence){throw new Error("Not implemented")} export function createOutputCode(name,flower,sequence){throw new Error("Not implemented")}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Generation Result",
+  "type": "object",
+  "required": [
+    "story_id",
+    "level",
+    "status",
+    "output"
+  ],
+  "properties": {
+    "story_id": {
+      "type": "string"
+    },
+    "level": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "generated",
+        "accepted",
+        "rejected",
+        "valid"
+      ]
+    },
+    "output": {
+      "type": "object"
+    },
+    "maturity": {
+      "type": "object"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sipal\u00ading Bunga Command",
+  "type": "object",
+  "required": [
+    "command"
+  ],
+  "properties": {
+    "command": {
+      "type": "string",
+      "enum": [
+        "/input",
+        "/output",
+        "/edit",
+        "/correct",
+        "/update",
+        "/revision",
+        "/remove"
+      ]
+    },
+    "target_code": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "fields": {
+      "type": "object"
+    },
+    "maturity": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

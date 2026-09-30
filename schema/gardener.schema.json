@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Gardener",
+  "type": "object",
+  "required": [
+    "gardener_id",
+    "name"
+  ],
+  "properties": {
+    "gardener_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "story_ids": {
+      "type": "array"
+    }
+  }
+}

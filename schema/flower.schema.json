@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Flower",
+  "type": "object",
+  "required": [
+    "flower_id",
+    "name"
+  ],
+  "properties": {
+    "flower_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

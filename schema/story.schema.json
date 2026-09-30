@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sipal\u00ading Bunga Story",
+  "type": "object",
+  "required": [
+    "story_id",
+    "input_code",
+    "output_code",
+    "gardener",
+    "flower",
+    "state"
+  ],
+  "properties": {
+    "story_id": {
+      "type": "string"
+    },
+    "input_code": {
+      "type": "string"
+    },
+    "output_code": {
+      "type": "string"
+    },
+    "gardener": {
+      "type": "object",
+      "required": [
+        "name"
+      ]
+    },
+    "flower": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "immutable"
+      ]
+    },
+    "state": {
+      "type": "object",
+      "required": [
+        "level",
+        "status"
+      ]
+    },
+    "input": {
+      "type": "object"
+    },
+    "output": {
+      "type": "object"
+    },
+    "maturity": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

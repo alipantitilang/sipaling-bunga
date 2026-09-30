@@ -1,0 +1,12 @@
+{
+  "input": {
+    "n": "Alip",
+    "f": "Blue Lotus",
+    "mr": "Aku bangga karena masih mampu melewati hidup yang tidak selalu indah."
+  },
+  "maturity": {
+    "mr": "mature",
+    "i": "raw"
+  },
+  "expected": "Preserve mr; refine i."
+}

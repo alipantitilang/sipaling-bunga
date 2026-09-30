@@ -1,0 +1,12 @@
+{
+  "input": {
+    "n": "Sarah",
+    "f": "Stargazer Lily",
+    "i": "Aku awalnya memilihnya karena bunganya cantik."
+  },
+  "maturity": {
+    "mr": "absent",
+    "i": "raw"
+  },
+  "expected": "Use visual attraction as discovery clue."
+}

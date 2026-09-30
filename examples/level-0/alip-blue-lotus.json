@@ -1,0 +1,11 @@
+{
+  "input": {
+    "n": "Alip",
+    "f": "Blue Lotus"
+  },
+  "maturity": {
+    "mr": "absent",
+    "i": "absent"
+  },
+  "expected": "Generate i[raw] only."
+}

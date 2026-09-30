@@ -1,0 +1,31 @@
+{
+  "project": "sipaling-bunga",
+  "version": "1.0.0",
+  "commands": [
+    "/input",
+    "/output",
+    "/edit",
+    "/correct",
+    "/update",
+    "/revision",
+    "/remove"
+  ],
+  "field_ids": {
+    "n": "name",
+    "f": "flower",
+    "mr": "meaning_reason",
+    "i": "inspiration"
+  },
+  "maturity": [
+    "absent",
+    "raw",
+    "mature"
+  ],
+  "statuses": [
+    "generated",
+    "accepted",
+    "rejected",
+    "valid"
+  ],
+  "flower_immutable": true
+}
