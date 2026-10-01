@@ -16,3 +16,15 @@
 - Examples.
 - Test specifications.
 - Source skeleton.
+
+## Database import — 2026-10-01T15:28:31.098592Z
+
+- Imported 17 current `/input` stories from the conversation.
+- Added current gardener story records, flower records, story history, and `data/index.json`.
+- All imported stories remain `generated`; none were promoted to `valid`.
+
+## Database import — 2026-10-01T15:35:28.837189Z
+
+- Added `/input` story for **Beeya — Common Sunflower**.
+- Created current story data, flower record, history, and index entry.
+- Story remains **Level 0 / generated** with `i: raw`; no personal meaning/reason was inferred as confirmed fact.

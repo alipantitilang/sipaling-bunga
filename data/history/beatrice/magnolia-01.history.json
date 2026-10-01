@@ -1,0 +1,40 @@
+[
+  {
+    "event_id": "a91210b6-2607-4671-924d-a0e25790dda1",
+    "story_id": "06bb75c2-c32e-5383-9ec8-cac6ef215892",
+    "timestamp": "2026-10-01T15:28:31.098592Z",
+    "event_type": "input_submitted",
+    "before": null,
+    "after": {
+      "n": "Beatrice",
+      "f": "Magnolia"
+    },
+    "metadata": {
+      "source": "conversation",
+      "command": "/input"
+    }
+  },
+  {
+    "event_id": "97e064ac-3197-4d3a-bb3d-65884fe9ac6d",
+    "story_id": "06bb75c2-c32e-5383-9ec8-cac6ef215892",
+    "timestamp": "2026-10-01T15:28:31.098592Z",
+    "event_type": "generation_created",
+    "before": null,
+    "after": {
+      "level": 0,
+      "status": "generated",
+      "output": {
+        "inspiration": "The Magnolia.\n\nUntuk saat ini, Magnolia menjadi pilihan yang ceritanya masih belum dituliskan.\n\nBelum diketahui apa yang membuat Beatrice berhenti pada bunga ini—mungkin bentuknya, warna dan tampilannya, aromanya, sebuah kenangan, atau sesuatu yang lebih personal.\n\nTidak perlu terburu-buru mencari jawabannya.\n\nSebab terkadang sebuah pilihan hadir lebih dahulu, sementara alasannya baru perlahan menemukan bentuk.\n\nMagnolia mungkin sudah dipilih. Ceritanya belum."
+      },
+      "maturity": {
+        "mr": "absent",
+        "i": "absent"
+      }
+    },
+    "metadata": {
+      "source": "conversation",
+      "command": "/input",
+      "note": "AI-generated output awaiting Gardener validation where applicable"
+    }
+  }
+]

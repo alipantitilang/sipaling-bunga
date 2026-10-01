@@ -1,0 +1,43 @@
+[
+  {
+    "event_id": "7c33defb-b79a-4b97-95de-2931c1cddea2",
+    "story_id": "4c293dcf-f8e5-5249-870e-ba87d06f519d",
+    "timestamp": "2026-10-01T15:28:31.098592Z",
+    "event_type": "input_submitted",
+    "before": null,
+    "after": {
+      "n": "Hyeon Woo",
+      "f": "Red Rose",
+      "mr": "Kelopakku adalah keberanianku untuk terlihat, warnaku adalah gairah yang tidak kusembunyikan, dan duriku adalah batas yang tidak akan kulewati. Aku tidak harus memilih antara indah dan kuat. Sebab keduanya tumbuh dari batang yang sama. Aku mekar karena aku tahu siapa diriku— dan aku berduri karena aku tahu nilai diriku.",
+      "i": "Ia menyukai tampilan mawar yang indah, tetapi tidak mudah diganggu. Ada batas untuk menikmati pesonanya, sekaligus kesan wibawa. Keindahan yang memiliki batas dan harga diri."
+    },
+    "metadata": {
+      "source": "conversation",
+      "command": "/input"
+    }
+  },
+  {
+    "event_id": "556186eb-955b-40d8-a53b-88ec796e97c6",
+    "story_id": "4c293dcf-f8e5-5249-870e-ba87d06f519d",
+    "timestamp": "2026-10-01T15:28:31.098592Z",
+    "event_type": "generation_created",
+    "before": null,
+    "after": {
+      "level": 1,
+      "status": "generated",
+      "output": {
+        "meaning_reason": "Kelopakku adalah keberanianku untuk terlihat, warnaku adalah gairah yang tidak kusembunyikan, dan duriku adalah batas yang tidak akan kulewati. Aku tidak harus memilih antara indah dan kuat. Sebab keduanya tumbuh dari batang yang sama. Aku mekar karena aku tahu siapa diriku— dan aku berduri karena aku tahu nilai diriku.",
+        "inspiration": "The Red Rose.\n\nHyeon Woo memilih mawar merah karena ia melihat sesuatu yang lebih dari sekadar keindahan pada bunga itu.\n\nMawar memiliki pesona yang membuat orang ingin mendekat dan mengaguminya, tetapi durinya mengingatkan bahwa keindahan tidak selalu berarti seseorang boleh menyentuhnya sembarangan.\n\nAda batas yang tetap berdiri di balik keindahan itu. Ada wibawa dalam caranya menjaga jarak, seolah mengatakan bahwa sesuatu yang indah tetap memiliki hak untuk menentukan bagaimana ia diperlakukan.\n\nMungkin itulah yang membuat mawar terasa begitu dekat dengannya.\n\nKeindahan yang memiliki batas dan harga diri.\n\nSebab menjadi indah bukan berarti harus selalu mudah didekati, dan menjadi kuat bukan berarti harus kehilangan sisi lembutnya."
+      },
+      "maturity": {
+        "mr": "mature",
+        "i": "raw"
+      }
+    },
+    "metadata": {
+      "source": "conversation",
+      "command": "/input",
+      "note": "AI-generated output awaiting Gardener validation where applicable"
+    }
+  }
+]

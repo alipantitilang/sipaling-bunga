@@ -1,0 +1,30 @@
+{
+  "story_id": "13fd7cf6-d8a2-5583-a747-d7b389e2fa20",
+  "input_code": "SGI-YIP-PINKLILY-01",
+  "output_code": "SGO-YIP-PINKLILY-01",
+  "gardener": {
+    "name": "Yip",
+    "gardener_id": "GDR-YIP"
+  },
+  "flower": {
+    "id": "pinklily",
+    "name": "Pink Lily",
+    "immutable": true
+  },
+  "state": {
+    "level": 0,
+    "status": "generated"
+  },
+  "input": {
+    "n": "Yip",
+    "f": "Pink Lily",
+    "i": "Alasannya sederhana: “cantik.” Ia menyukai bunga tersebut karena keindahannya secara langsung, tanpa membutuhkan alasan filosofis yang rumit. Tidak semua keindahan membutuhkan alasan untuk disukai."
+  },
+  "output": {
+    "inspiration": "The Pink Lily.\n\nYip memilih Pink Lily karena satu alasan yang sederhana: cantik.\n\nTidak ada makna rumit yang perlu dicari. Tidak ada filosofi panjang yang harus menjelaskan mengapa sebuah bunga layak disukai.\n\nIa hanya melihatnya, menemukan keindahan di sana, lalu menyukainya.\n\nDan mungkin memang sesederhana itu.\n\nTidak semua hal yang berarti bagi kita harus memiliki alasan yang dalam. Terkadang, keindahan sudah cukup menjadi alasan untuk berhenti, memperhatikan, dan berkata, “aku suka.”\n\nSebab tidak semua keindahan membutuhkan alasan untuk disukai."
+  },
+  "maturity": {
+    "mr": "absent",
+    "i": "raw"
+  }
+}

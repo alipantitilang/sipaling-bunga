@@ -1,0 +1,30 @@
+{
+  "story_id": "a73f6637-8e6a-558d-a929-24aa529034d4",
+  "input_code": "SGI-ARISU-SPIDERLILY-01",
+  "output_code": "SGO-ARISU-SPIDERLILY-01",
+  "gardener": {
+    "name": "Arisu",
+    "gardener_id": "GDR-ARISU"
+  },
+  "flower": {
+    "id": "spiderlily",
+    "name": "Spider Lily",
+    "immutable": true
+  },
+  "state": {
+    "level": 0,
+    "status": "generated"
+  },
+  "input": {
+    "n": "Arisu",
+    "f": "Spider Lily",
+    "i": "karna warna merahnya yang cantik dan terkesan badas. suka spiderman juga (karna ada spidernya)."
+  },
+  "output": {
+    "inspiration": "The Spider Lily.\n\nArisu memilih Spider Lily karena satu hal yang langsung menarik perhatiannya: warna merahnya yang cantik dan terkesan badass.\n\nAda kesan berani dalam warna tersebut—mencolok, kuat, dan tidak mudah diabaikan. Spider Lily terasa punya karakter yang berbeda; indah, tetapi sekaligus membawa sedikit kesan liar dan berani.\n\nAda satu alasan lain yang jauh lebih sederhana dan personal: Arisu juga menyukai Spider-Man.\n\nNama Spider Lily saja sudah memiliki kata spider di dalamnya, dan ternyata itu sudah cukup untuk membuat bunga ini terasa semakin menarik baginya.\n\nMungkin memang tidak semua pilihan harus memiliki alasan yang dalam.\n\nKadang kita menyukai sesuatu karena warnanya keren, auranya terasa badass, atau karena kebetulan mengingatkan kita pada sesuatu yang kita sukai.\n\nDan terkadang, satu kata yang familiar sudah cukup untuk membuat sebuah bunga terasa lebih dekat."
+  },
+  "maturity": {
+    "mr": "absent",
+    "i": "raw"
+  }
+}

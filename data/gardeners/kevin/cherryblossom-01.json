@@ -1,0 +1,30 @@
+{
+  "story_id": "34aad5f9-1745-55c4-80a5-597a2461b875",
+  "input_code": "SGI-KEVIN-CHERRYBLOSSOM-01",
+  "output_code": "SGO-KEVIN-CHERRYBLOSSOM-01",
+  "gardener": {
+    "name": "Kevin",
+    "gardener_id": "GDR-KEVIN"
+  },
+  "flower": {
+    "id": "cherryblossom",
+    "name": "Cherry Blossom",
+    "immutable": true
+  },
+  "state": {
+    "level": 0,
+    "status": "generated"
+  },
+  "input": {
+    "n": "Kevin",
+    "f": "Cherry Blossom",
+    "i": "memberikan kesan hangat, dan kesetiaan, keceriaan. apalagi warna kuning itu punya daya tarik yang kuat."
+  },
+  "output": {
+    "inspiration": "The Cherry Blossom.\n\nKevin tertarik pada Cherry Blossom karena kesan yang muncul ketika melihatnya: hangat, ceria, dan membawa sesuatu yang terasa dekat dengan kesetiaan.\n\nAda pula warna kuning yang menurutnya memiliki daya tarik tersendiri—warna yang terasa kuat dalam menarik perhatian dan memberikan kesan cerah pada apa yang dipandangnya.\n\nMungkin bukan makna yang rumit yang membuat bunga ini menarik baginya. Ada sesuatu yang sederhana dalam kesan pertama itu: rasa hangat, sedikit keceriaan, dan warna yang mampu membuat mata berhenti lebih lama.\n\nTerkadang, sebuah bunga menjadi berarti bukan karena banyaknya makna yang kita ketahui tentangnya, tetapi karena kesan yang pertama kali ia tinggalkan dalam diri kita."
+  },
+  "maturity": {
+    "mr": "absent",
+    "i": "raw"
+  }
+}

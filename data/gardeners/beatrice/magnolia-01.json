@@ -1,0 +1,29 @@
+{
+  "story_id": "06bb75c2-c32e-5383-9ec8-cac6ef215892",
+  "input_code": "SGI-BEATRICE-MAGNOLIA-01",
+  "output_code": "SGO-BEATRICE-MAGNOLIA-01",
+  "gardener": {
+    "name": "Beatrice",
+    "gardener_id": "GDR-BEATRICE"
+  },
+  "flower": {
+    "id": "magnolia",
+    "name": "Magnolia",
+    "immutable": true
+  },
+  "state": {
+    "level": 0,
+    "status": "generated"
+  },
+  "input": {
+    "n": "Beatrice",
+    "f": "Magnolia"
+  },
+  "output": {
+    "inspiration": "The Magnolia.\n\nUntuk saat ini, Magnolia menjadi pilihan yang ceritanya masih belum dituliskan.\n\nBelum diketahui apa yang membuat Beatrice berhenti pada bunga ini—mungkin bentuknya, warna dan tampilannya, aromanya, sebuah kenangan, atau sesuatu yang lebih personal.\n\nTidak perlu terburu-buru mencari jawabannya.\n\nSebab terkadang sebuah pilihan hadir lebih dahulu, sementara alasannya baru perlahan menemukan bentuk.\n\nMagnolia mungkin sudah dipilih. Ceritanya belum."
+  },
+  "maturity": {
+    "mr": "absent",
+    "i": "absent"
+  }
+}

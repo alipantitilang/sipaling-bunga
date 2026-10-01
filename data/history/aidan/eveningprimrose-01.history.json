@@ -1,0 +1,41 @@
+[
+  {
+    "event_id": "fc04089a-a9dd-4c8b-be55-1017ca651822",
+    "story_id": "5b8e548e-b3bc-5d6c-a908-967ba2c641f7",
+    "timestamp": "2026-10-01T15:28:31.098592Z",
+    "event_type": "input_submitted",
+    "before": null,
+    "after": {
+      "n": "Aidan",
+      "f": "Evening Primrose",
+      "i": "Ia pernah membaca nama Evening Primrose dalam sebuah buku. Dari sekian banyak objek yang ditemui, bunga itu secara kebetulan menarik dan memfokuskan pandangannya. Sesuatu yang berarti terkadang ditemukan tanpa sengaja."
+    },
+    "metadata": {
+      "source": "conversation",
+      "command": "/input"
+    }
+  },
+  {
+    "event_id": "19bd3dac-64a2-42bc-a820-c20a5e6c1bd3",
+    "story_id": "5b8e548e-b3bc-5d6c-a908-967ba2c641f7",
+    "timestamp": "2026-10-01T15:28:31.098592Z",
+    "event_type": "generation_created",
+    "before": null,
+    "after": {
+      "level": 0,
+      "status": "generated",
+      "output": {
+        "inspiration": "The Evening Primrose.\n\nAidan pertama kali mengenal Evening Primrose melalui sebuah buku.\n\nDi antara begitu banyak nama dan objek yang bisa saja ia lewati begitu saja, entah bagaimana nama bunga itu membuat pandangannya berhenti. Tidak ada pencarian panjang di balik pertemuan itu. Tidak ada alasan yang telah disiapkan sebelumnya.\n\nIa hanya menemukannya secara kebetulan—lalu merasa tertarik.\n\nMungkin memang ada hal-hal tertentu dalam hidup yang tidak datang karena kita mencarinya. Mereka hanya muncul di antara begitu banyak hal lain, lalu entah bagaimana berhasil membuat kita berhenti sejenak.\n\nSesuatu yang berarti terkadang ditemukan tanpa sengaja.\n\nDan mungkin, Evening Primrose menjadi berarti bagi Aidan justru karena pertemuan pertama mereka sesederhana itu."
+      },
+      "maturity": {
+        "mr": "absent",
+        "i": "raw"
+      }
+    },
+    "metadata": {
+      "source": "conversation",
+      "command": "/input",
+      "note": "AI-generated output awaiting Gardener validation where applicable"
+    }
+  }
+]

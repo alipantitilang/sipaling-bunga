@@ -1,0 +1,41 @@
+[
+  {
+    "event_id": "05793897-d5b2-49e2-a435-e049fcddee07",
+    "story_id": "a73f6637-8e6a-558d-a929-24aa529034d4",
+    "timestamp": "2026-10-01T15:28:31.098592Z",
+    "event_type": "input_submitted",
+    "before": null,
+    "after": {
+      "n": "Arisu",
+      "f": "Spider Lily",
+      "i": "karna warna merahnya yang cantik dan terkesan badas. suka spiderman juga (karna ada spidernya)."
+    },
+    "metadata": {
+      "source": "conversation",
+      "command": "/input"
+    }
+  },
+  {
+    "event_id": "c5eda37d-f9e7-4460-be14-265061838c1e",
+    "story_id": "a73f6637-8e6a-558d-a929-24aa529034d4",
+    "timestamp": "2026-10-01T15:28:31.098592Z",
+    "event_type": "generation_created",
+    "before": null,
+    "after": {
+      "level": 0,
+      "status": "generated",
+      "output": {
+        "inspiration": "The Spider Lily.\n\nArisu memilih Spider Lily karena satu hal yang langsung menarik perhatiannya: warna merahnya yang cantik dan terkesan badass.\n\nAda kesan berani dalam warna tersebut—mencolok, kuat, dan tidak mudah diabaikan. Spider Lily terasa punya karakter yang berbeda; indah, tetapi sekaligus membawa sedikit kesan liar dan berani.\n\nAda satu alasan lain yang jauh lebih sederhana dan personal: Arisu juga menyukai Spider-Man.\n\nNama Spider Lily saja sudah memiliki kata spider di dalamnya, dan ternyata itu sudah cukup untuk membuat bunga ini terasa semakin menarik baginya.\n\nMungkin memang tidak semua pilihan harus memiliki alasan yang dalam.\n\nKadang kita menyukai sesuatu karena warnanya keren, auranya terasa badass, atau karena kebetulan mengingatkan kita pada sesuatu yang kita sukai.\n\nDan terkadang, satu kata yang familiar sudah cukup untuk membuat sebuah bunga terasa lebih dekat."
+      },
+      "maturity": {
+        "mr": "absent",
+        "i": "raw"
+      }
+    },
+    "metadata": {
+      "source": "conversation",
+      "command": "/input",
+      "note": "AI-generated output awaiting Gardener validation where applicable"
+    }
+  }
+]

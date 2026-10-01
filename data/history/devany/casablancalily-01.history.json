@@ -1,0 +1,40 @@
+[
+  {
+    "event_id": "b3a705ea-cda5-4b9a-9c86-29e72673b92b",
+    "story_id": "1db47954-d35a-52ed-a16e-053823169a26",
+    "timestamp": "2026-10-01T15:28:31.098592Z",
+    "event_type": "input_submitted",
+    "before": null,
+    "after": {
+      "n": "Devany",
+      "f": "Casablanca Lily"
+    },
+    "metadata": {
+      "source": "conversation",
+      "command": "/input"
+    }
+  },
+  {
+    "event_id": "1e63d382-965a-4717-bfa6-4b7fc5c8f3b1",
+    "story_id": "1db47954-d35a-52ed-a16e-053823169a26",
+    "timestamp": "2026-10-01T15:28:31.098592Z",
+    "event_type": "generation_created",
+    "before": null,
+    "after": {
+      "level": 0,
+      "status": "generated",
+      "output": {
+        "inspiration": "The Casablanca Lily.\n\nUntuk saat ini, Casablanca Lily menjadi sebuah pilihan yang ceritanya masih terbuka.\n\nBelum diketahui apakah Devany memilihnya karena bentuknya, warnanya, aromanya, sebuah kenangan, seseorang, atau mungkin karena sesuatu yang bahkan sulit dijelaskan dengan kata-kata.\n\nDan tidak apa-apa.\n\nSebuah bunga tidak harus langsung memiliki cerita ketika pertama kali dipilih. Terkadang, pilihan datang lebih dahulu—lalu alasannya perlahan ditemukan setelahnya.\n\nMungkin Casablanca Lily adalah jawabannya. Mungkin juga ia adalah pertanyaan yang baru saja dimulai."
+      },
+      "maturity": {
+        "mr": "absent",
+        "i": "absent"
+      }
+    },
+    "metadata": {
+      "source": "conversation",
+      "command": "/input",
+      "note": "AI-generated output awaiting Gardener validation where applicable"
+    }
+  }
+]

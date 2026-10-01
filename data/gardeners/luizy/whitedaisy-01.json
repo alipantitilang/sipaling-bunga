@@ -1,0 +1,30 @@
+{
+  "story_id": "bdac0207-b3df-54e1-ad5a-63a26969775a",
+  "input_code": "SGI-LUIZY-WHITEDAISY-01",
+  "output_code": "SGO-LUIZY-WHITEDAISY-01",
+  "gardener": {
+    "name": "Luizy",
+    "gardener_id": "GDR-LUIZY"
+  },
+  "flower": {
+    "id": "whitedaisy",
+    "name": "White Daisy",
+    "immutable": true
+  },
+  "state": {
+    "level": 0,
+    "status": "generated"
+  },
+  "input": {
+    "n": "Luizy",
+    "f": "White Daisy",
+    "i": "karna vibesnya seperti innocent dan ceria"
+  },
+  "output": {
+    "inspiration": "The White Daisy.\n\nLuizy memilih White Daisy karena bunga ini memberikan kesan yang terasa innocent dan ceria.\n\nAda sesuatu yang sederhana dalam tampilannya—tidak berlebihan, tetapi tetap mampu menghadirkan suasana yang ringan dan menyenangkan.\n\nMungkin justru kesederhanaan itulah yang membuatnya terasa dekat.\n\nWhite Daisy seolah membawa kesan tentang kepolosan yang tidak dibuat-buat dan keceriaan yang tidak membutuhkan banyak alasan untuk hadir.\n\nTerkadang, kita memilih sesuatu bukan karena ia memiliki makna yang rumit, tetapi karena suasana yang dibawanya terasa seperti sesuatu yang ingin kita miliki."
+  },
+  "maturity": {
+    "mr": "absent",
+    "i": "raw"
+  }
+}

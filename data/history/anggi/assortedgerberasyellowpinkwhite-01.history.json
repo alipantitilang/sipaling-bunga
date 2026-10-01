@@ -1,0 +1,40 @@
+[
+  {
+    "event_id": "16bb5db7-7e96-43bd-a003-a9056d6e6ad5",
+    "story_id": "09e8cab8-434a-5805-84cf-c4b69662ab00",
+    "timestamp": "2026-10-01T15:28:31.098592Z",
+    "event_type": "input_submitted",
+    "before": null,
+    "after": {
+      "n": "Anggi",
+      "f": "Assorted Gerberas (yellow, pink, white)"
+    },
+    "metadata": {
+      "source": "conversation",
+      "command": "/input"
+    }
+  },
+  {
+    "event_id": "d723af2e-9706-44d1-a5a9-394b91cc4170",
+    "story_id": "09e8cab8-434a-5805-84cf-c4b69662ab00",
+    "timestamp": "2026-10-01T15:28:31.098592Z",
+    "event_type": "generation_created",
+    "before": null,
+    "after": {
+      "level": 0,
+      "status": "generated",
+      "output": {
+        "inspiration": "The Assorted Gerberas.\n\nAnggi memilih gerbera dalam tiga warna: kuning, merah muda, dan putih.\n\nUntuk saat ini, belum ada cerita yang menjelaskan mengapa ketiga warna tersebut terasa tepat baginya. Karena itu, bunga-bunga ini belum perlu diberi makna yang terburu-buru.\n\nMungkin ada sesuatu yang ia sukai dari warna-warnanya. Mungkin ada pengalaman tertentu yang membuatnya memilihnya. Atau mungkin, ketika melihat ketiganya berdampingan, ada perasaan sederhana yang terasa dekat dengannya.\n\nBelum diketahui.\n\nDan justru di situlah ceritanya masih terbuka.\n\nTiga warna, satu pilihan—dan sebuah alasan yang masih menunggu untuk ditemukan."
+      },
+      "maturity": {
+        "mr": "absent",
+        "i": "absent"
+      }
+    },
+    "metadata": {
+      "source": "conversation",
+      "command": "/input",
+      "note": "AI-generated output awaiting Gardener validation where applicable"
+    }
+  }
+]

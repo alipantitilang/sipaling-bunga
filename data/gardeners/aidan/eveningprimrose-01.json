@@ -1,0 +1,30 @@
+{
+  "story_id": "5b8e548e-b3bc-5d6c-a908-967ba2c641f7",
+  "input_code": "SGI-AIDAN-EVENINGPRIMROSE-01",
+  "output_code": "SGO-AIDAN-EVENINGPRIMROSE-01",
+  "gardener": {
+    "name": "Aidan",
+    "gardener_id": "GDR-AIDAN"
+  },
+  "flower": {
+    "id": "eveningprimrose",
+    "name": "Evening Primrose",
+    "immutable": true
+  },
+  "state": {
+    "level": 0,
+    "status": "generated"
+  },
+  "input": {
+    "n": "Aidan",
+    "f": "Evening Primrose",
+    "i": "Ia pernah membaca nama Evening Primrose dalam sebuah buku. Dari sekian banyak objek yang ditemui, bunga itu secara kebetulan menarik dan memfokuskan pandangannya. Sesuatu yang berarti terkadang ditemukan tanpa sengaja."
+  },
+  "output": {
+    "inspiration": "The Evening Primrose.\n\nAidan pertama kali mengenal Evening Primrose melalui sebuah buku.\n\nDi antara begitu banyak nama dan objek yang bisa saja ia lewati begitu saja, entah bagaimana nama bunga itu membuat pandangannya berhenti. Tidak ada pencarian panjang di balik pertemuan itu. Tidak ada alasan yang telah disiapkan sebelumnya.\n\nIa hanya menemukannya secara kebetulan—lalu merasa tertarik.\n\nMungkin memang ada hal-hal tertentu dalam hidup yang tidak datang karena kita mencarinya. Mereka hanya muncul di antara begitu banyak hal lain, lalu entah bagaimana berhasil membuat kita berhenti sejenak.\n\nSesuatu yang berarti terkadang ditemukan tanpa sengaja.\n\nDan mungkin, Evening Primrose menjadi berarti bagi Aidan justru karena pertemuan pertama mereka sesederhana itu."
+  },
+  "maturity": {
+    "mr": "absent",
+    "i": "raw"
+  }
+}

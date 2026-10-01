@@ -1,0 +1,32 @@
+{
+  "story_id": "6365ef26-8537-5ebf-9876-68ebcd6372b4",
+  "input_code": "SGI-SARAH-STARGAZERLILY-01",
+  "output_code": "SGO-SARAH-STARGAZERLILY-01",
+  "gardener": {
+    "name": "Sarah",
+    "gardener_id": "GDR-SARAH"
+  },
+  "flower": {
+    "id": "stargazerlily",
+    "name": "Stargazer Lily",
+    "immutable": true
+  },
+  "state": {
+    "level": 0,
+    "status": "generated"
+  },
+  "input": {
+    "n": "Sarah",
+    "f": "Stargazer Lily",
+    "mr": "Aku ingin menjadi pink lily, agar hatiku selalu tahu cara menyayangi dengan lembut. Dan aku ingin menjadi white lily, agar setiap rasa yang tumbuh tetap tulus dan damai. Semoga aku mekar tanpa kehilangan kelembutan, dan mencintai tanpa kehilangan ketulusan.",
+    "i": "Awalnya bukan karena makna. Ia melihat visualnya cantik. Setelah memilihnya, ia mengetahui makna pink + white lily dan merasa dekat dengan makna tersebut. Menemukan keindahan terlebih dahulu, lalu menemukan makna di baliknya."
+  },
+  "output": {
+    "meaning_reason": "Aku ingin menjadi pink lily, agar hatiku selalu tahu cara menyayangi dengan lembut. Dan aku ingin menjadi white lily, agar setiap rasa yang tumbuh tetap tulus dan damai. Semoga aku mekar tanpa kehilangan kelembutan, dan mencintai tanpa kehilangan ketulusan.",
+    "inspiration": "The Stargazer Lily.\n\nSarah pertama kali memilih Stargazer Lily bukan karena mengetahui maknanya, melainkan karena ia melihat sesuatu yang indah.\n\nIa tertarik pada visualnya terlebih dahulu. Tidak ada makna khusus yang sedang ia cari ketika memilihnya—hanya ada sebuah bunga yang menurutnya cantik, lalu membuatnya ingin berhenti dan melihat lebih dekat.\n\nSetelah pilihan itu dibuat, barulah ia menemukan makna yang ada di baliknya.\n\nPink mengingatkannya pada kelembutan dalam menyayangi, sementara putih membawa gagasan tentang ketulusan dan kedamaian. Makna-makna itu kemudian terasa dekat dengan sesuatu yang ingin ia bawa dalam dirinya.\n\nMungkin memang tidak semua hal harus dimulai dari sebuah alasan.\n\nTerkadang, kita menemukan sesuatu karena keindahannya terlebih dahulu. Lalu, setelah memilihnya, kita menemukan alasan mengapa ia terasa begitu dekat."
+  },
+  "maturity": {
+    "mr": "raw",
+    "i": "raw"
+  }
+}

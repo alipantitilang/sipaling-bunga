@@ -1,0 +1,41 @@
+[
+  {
+    "event_id": "067c7437-bd13-4e3d-a3a9-ac793ff5b617",
+    "story_id": "34aad5f9-1745-55c4-80a5-597a2461b875",
+    "timestamp": "2026-10-01T15:28:31.098592Z",
+    "event_type": "input_submitted",
+    "before": null,
+    "after": {
+      "n": "Kevin",
+      "f": "Cherry Blossom",
+      "i": "memberikan kesan hangat, dan kesetiaan, keceriaan. apalagi warna kuning itu punya daya tarik yang kuat."
+    },
+    "metadata": {
+      "source": "conversation",
+      "command": "/input"
+    }
+  },
+  {
+    "event_id": "c8ed306e-6f56-432c-9323-bf845233071a",
+    "story_id": "34aad5f9-1745-55c4-80a5-597a2461b875",
+    "timestamp": "2026-10-01T15:28:31.098592Z",
+    "event_type": "generation_created",
+    "before": null,
+    "after": {
+      "level": 0,
+      "status": "generated",
+      "output": {
+        "inspiration": "The Cherry Blossom.\n\nKevin tertarik pada Cherry Blossom karena kesan yang muncul ketika melihatnya: hangat, ceria, dan membawa sesuatu yang terasa dekat dengan kesetiaan.\n\nAda pula warna kuning yang menurutnya memiliki daya tarik tersendiri—warna yang terasa kuat dalam menarik perhatian dan memberikan kesan cerah pada apa yang dipandangnya.\n\nMungkin bukan makna yang rumit yang membuat bunga ini menarik baginya. Ada sesuatu yang sederhana dalam kesan pertama itu: rasa hangat, sedikit keceriaan, dan warna yang mampu membuat mata berhenti lebih lama.\n\nTerkadang, sebuah bunga menjadi berarti bukan karena banyaknya makna yang kita ketahui tentangnya, tetapi karena kesan yang pertama kali ia tinggalkan dalam diri kita."
+      },
+      "maturity": {
+        "mr": "absent",
+        "i": "raw"
+      }
+    },
+    "metadata": {
+      "source": "conversation",
+      "command": "/input",
+      "note": "AI-generated output awaiting Gardener validation where applicable"
+    }
+  }
+]

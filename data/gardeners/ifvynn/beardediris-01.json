@@ -1,0 +1,30 @@
+{
+  "story_id": "22999309-b904-5f36-be14-2c82ad442aac",
+  "input_code": "SGI-IFVYNN-BEARDEDIRIS-01",
+  "output_code": "SGO-IFVYNN-BEARDEDIRIS-01",
+  "gardener": {
+    "name": "Ifvynn",
+    "gardener_id": "GDR-IFVYNN"
+  },
+  "flower": {
+    "id": "beardediris",
+    "name": "Bearded Iris",
+    "immutable": true
+  },
+  "state": {
+    "level": 0,
+    "status": "generated"
+  },
+  "input": {
+    "n": "Ifvynn",
+    "f": "Bearded Iris",
+    "i": "karna bunga iris menjadi symbol bangsawan, punya keterikatan dengan keluarga bangsawan di Eropa. kebijaksanaan, keberanian."
+  },
+  "output": {
+    "inspiration": "The Bearded Iris.\n\nIfvynn memilih Bearded Iris karena bunga ini membawa kesan yang berkaitan dengan kebangsawanan dan sejarah keluarga kerajaan di Eropa.\n\nDari keterkaitan tersebut, muncul pula nilai yang terasa dekat dengannya: kebijaksanaan dan keberanian.\n\nAda sesuatu yang menarik dari bunga yang tidak hanya dipandang karena keindahannya, tetapi juga karena simbol dan sejarah yang melekat di belakangnya. Bearded Iris terasa seperti bunga yang membawa karakter—anggun, berwibawa, namun tetap menyimpan keteguhan.\n\nMungkin itulah yang membuatnya menarik bagi Ifvynn: bukan sekadar bagaimana bunga itu terlihat, tetapi apa yang terasa hadir di baliknya.\n\nKeanggunan yang membawa sejarah, kebijaksanaan yang lahir dari pengalaman, dan keberanian untuk berdiri dengan martabatnya sendiri."
+  },
+  "maturity": {
+    "mr": "absent",
+    "i": "raw"
+  }
+}

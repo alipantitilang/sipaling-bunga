@@ -1,0 +1,29 @@
+{
+  "story_id": "c3fec366-bf53-565f-9b19-c3d1a764ac03",
+  "input_code": "SGI-BEEYA-COMMONSUNFLOWER",
+  "output_code": "SGO-BEEYA-COMMONSUNFLOWER",
+  "gardener": {
+    "name": "Beeya",
+    "gardener_id": "GDR-BEEYA"
+  },
+  "flower": {
+    "id": "commonsunflower",
+    "name": "Common Sunflower",
+    "immutable": true
+  },
+  "state": {
+    "level": 0,
+    "status": "generated"
+  },
+  "input": {
+    "n": "Beeya",
+    "f": "Common Sunflower"
+  },
+  "output": {
+    "inspiration": "aku memilih bunga ini karna untuk saat ini Common Sunflower terasa menarik melalui kesan yang sederhana: terang, hangat, dan mudah membuat perhatian berhenti sejenak.\n\nAda sesuatu dari bunga matahari yang terasa dekat dengan gagasan tentang tumbuh dan terus mencari cahaya. Ia dapat menjadi gambaran tentang harapan, semangat, atau keinginan untuk tetap bergerak ke arah yang lebih baik—meskipun belum tentu itulah alasan sebenarnya Beeya memilihnya.\n\nMungkin nantinya akan ditemukan cerita yang lebih personal di balik pilihan ini. Bisa jadi tentang warna kuningnya, bentuknya, kenangan tertentu, seseorang, atau sekadar rasa suka ketika pertama kali melihatnya. Untuk sekarang, biarkan Common Sunflower menjadi awal dari sebuah pertanyaan: apa yang membuat bunga yang selalu tampak menghadap cahaya ini terasa dekat bagi Beeya?"
+  },
+  "maturity": {
+    "mr": "absent",
+    "i": "raw"
+  }
+}

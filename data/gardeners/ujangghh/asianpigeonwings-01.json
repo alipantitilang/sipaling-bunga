@@ -1,0 +1,30 @@
+{
+  "story_id": "7fd84476-e5ce-5f91-83c8-69ef2b78b24e",
+  "input_code": "SGI-UJANGGHH-ASIANPIGEONWINGS-01",
+  "output_code": "SGO-UJANGGHH-ASIANPIGEONWINGS-01",
+  "gardener": {
+    "name": "Ujangghh",
+    "gardener_id": "GDR-UJANGGHH"
+  },
+  "flower": {
+    "id": "asianpigeonwings",
+    "name": "Asian Pigeonwings",
+    "immutable": true
+  },
+  "state": {
+    "level": 0,
+    "status": "generated"
+  },
+  "input": {
+    "n": "Ujangghh",
+    "f": "Asian Pigeonwings",
+    "i": "Ia melihat bahwa bunga ini mungkin tidak dianggap indah secara tampilan, tetapi memiliki keindahan dalam maknanya. Keindahan tidak selalu berada pada apa yang pertama kali dilihat mata."
+  },
+  "output": {
+    "inspiration": "The Asian Pigeonwings.\n\nUjang memilih Asian Pigeonwings karena ia melihat keindahan yang mungkin tidak langsung terlihat oleh mata.\n\nBunga ini mungkin tidak dianggap paling indah dari tampilannya. Namun, justru di situlah perhatian Ujang berhenti—pada sesuatu yang menunjukkan bahwa nilai sebuah bunga tidak selalu dapat diukur dari apa yang tampak pertama kali.\n\nAda keindahan yang hadir melalui bentuk dan warna. Ada pula keindahan yang baru terasa setelah kita memahami maknanya.\n\nMungkin Asian Pigeonwings mengingatkan Ujang bahwa sesuatu tidak harus terlihat luar biasa untuk memiliki arti yang dalam.\n\nKeindahan tidak selalu berada pada apa yang pertama kali dilihat mata.\n\nTerkadang, kita perlu melihat lebih jauh untuk menemukan apa yang sebenarnya membuat sesuatu menjadi indah."
+  },
+  "maturity": {
+    "mr": "absent",
+    "i": "raw"
+  }
+}

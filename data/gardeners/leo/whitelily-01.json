@@ -1,0 +1,32 @@
+{
+  "story_id": "c79da54f-baaf-5c94-8023-dfeaecab847b",
+  "input_code": "SGI-LEO-WHITELILY-01",
+  "output_code": "SGO-LEO-WHITELILY-01",
+  "gardener": {
+    "name": "Leo",
+    "gardener_id": "GDR-LEO"
+  },
+  "flower": {
+    "id": "whitelily",
+    "name": "White Lily",
+    "immutable": true
+  },
+  "state": {
+    "level": 1,
+    "status": "generated"
+  },
+  "input": {
+    "n": "Leo",
+    "f": "White Lily",
+    "mr": "Aku memilih white lily, bukan hanya karena warnanya, tetapi karena ia mengingatkanku pada keberanian yang tetap mampu berdiri dengan hati yang bersih. Putih bukan berarti lemah. Ia adalah keteguhan yang tidak perlu kehilangan kemurniannya. Berani untuk berdiri, tulus untuk tetap menjadi diri sendiri. Seperti The Lilywhites— aku ingin tetap teguh dengan apa kupercaya, tanpa harus kehilangan hati yang bersih.",
+    "i": "Terinspirasi oleh Tottenham Hotspur dan julukan mereka, The Lilywhites. Lily putih kemudian ia kaitkan dengan keberanian dan kemurnian. Berani berdiri teguh tanpa kehilangan kemurnian diri."
+  },
+  "output": {
+    "meaning_reason": "Aku memilih white lily, bukan hanya karena warnanya, tetapi karena ia mengingatkanku pada keberanian yang tetap mampu berdiri dengan hati yang bersih. Putih bukan berarti lemah. Ia adalah keteguhan yang tidak perlu kehilangan kemurniannya. Berani untuk berdiri, tulus untuk tetap menjadi diri sendiri. Seperti The Lilywhites— aku ingin tetap teguh dengan apa kupercaya, tanpa harus kehilangan hati yang bersih.",
+    "inspiration": "The White Lily.\n\nLeo mengenal white lily melalui sesuatu yang mungkin pada awalnya tidak berkaitan dengan bunga sama sekali: Tottenham Hotspur dan julukan mereka, The Lilywhites.\n\nDari sana, lily putih perlahan mendapatkan makna yang lebih personal. Putih bukan hanya tentang warna, tetapi tentang hati yang tetap bersih. Tentang keberanian untuk berdiri teguh tanpa harus kehilangan ketulusan dan kemurnian diri.\n\nAda sesuatu yang menarik dari gagasan bahwa keberanian tidak selalu harus terlihat keras. Terkadang, keberanian justru berarti tetap menjadi diri sendiri ketika keadaan menuntut kita untuk berubah.\n\nMungkin itulah alasan white lily terasa tepat bagi Leo.\n\nBerani untuk berdiri teguh, tanpa harus kehilangan hati yang bersih.\n\nSebab keteguhan dan kemurnian tidak harus saling bertentangan. Keduanya dapat tumbuh dari tempat yang sama—seperti lily putih yang tetap berdiri dengan sederhana, namun membawa makna yang begitu kuat."
+  },
+  "maturity": {
+    "mr": "mature",
+    "i": "raw"
+  }
+}
