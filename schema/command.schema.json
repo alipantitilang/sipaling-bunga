@@ -1,35 +1,179 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Sipal\u00ading Bunga Command",
-  "type": "object",
-  "required": [
-    "command"
-  ],
-  "properties": {
-    "command": {
-      "type": "string",
-      "enum": [
-        "/input",
-        "/output",
-        "/edit",
-        "/correct",
-        "/update",
-        "/revision",
-        "/remove"
-      ]
+  "title": "Sipaling Bunga Command",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": [
+        "command",
+        "fields"
+      ],
+      "properties": {
+        "command": {
+          "const": "/input"
+        },
+        "fields": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
     },
-    "target_code": {
-      "type": [
-        "string",
-        "null"
-      ]
+    {
+      "type": "object",
+      "required": [
+        "command",
+        "target_code"
+      ],
+      "properties": {
+        "command": {
+          "const": "/output"
+        },
+        "target_code": {
+          "type": "string",
+          "pattern": "^SGO-[A-Z0-9-]+$"
+        }
+      },
+      "additionalProperties": false
     },
-    "fields": {
-      "type": "object"
+    {
+      "type": "object",
+      "required": [
+        "command",
+        "target_code",
+        "fields"
+      ],
+      "properties": {
+        "command": {
+          "const": "/edit"
+        },
+        "target_code": {
+          "type": "string",
+          "pattern": "^SG[IO]-[A-Z0-9-]+$"
+        },
+        "fields": {
+          "type": "object",
+          "properties": {
+            "n": {
+              "type": "string"
+            },
+            "status": {
+              "enum": [
+                "a",
+                "r",
+                "accepted",
+                "rejected"
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
     },
-    "maturity": {
-      "type": "object"
+    {
+      "type": "object",
+      "required": [
+        "command",
+        "fields"
+      ],
+      "properties": {
+        "command": {
+          "const": "/correct"
+        },
+        "fields": {
+          "type": "object",
+          "minProperties": 1,
+          "properties": {
+            "i": {
+              "type": "string"
+            },
+            "mr": {
+              "type": "string"
+            },
+            "r": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "command",
+        "target_code",
+        "fields"
+      ],
+      "properties": {
+        "command": {
+          "const": "/update"
+        },
+        "target_code": {
+          "type": "string",
+          "pattern": "^SGI-[A-Z0-9-]+$"
+        },
+        "fields": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "command",
+        "target_code",
+        "fields"
+      ],
+      "properties": {
+        "command": {
+          "const": "/revision"
+        },
+        "target_code": {
+          "type": "string",
+          "pattern": "^SGI-[A-Z0-9-]+$"
+        },
+        "fields": {
+          "type": "object",
+          "minProperties": 1,
+          "properties": {
+            "i": {
+              "type": "string"
+            },
+            "mr": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "command",
+        "target_code"
+      ],
+      "properties": {
+        "command": {
+          "const": "/remove"
+        },
+        "target_code": {
+          "type": "string",
+          "pattern": "^SGI-[A-Z0-9-]+$"
+        }
+      },
+      "additionalProperties": false
     }
-  },
-  "additionalProperties": false
+  ],
+  "description": "Command contract. /correct is targetless after an explicit /edit output status:r gate; /revision explicitly targets an input code."
 }

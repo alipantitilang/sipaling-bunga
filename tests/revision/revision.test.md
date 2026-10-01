@@ -1,5 +1,11 @@
-# Revision
-- valid only
-- old valid state preserved
+# /revision
+- valid stories only
+- input code is required
+- output code is not the target for revision
+- can revise `i`
+- can revise `mr`
+- can revise `i` and `mr` together
+- flower cannot be revised
+- old valid state preserved in history
 - newest state becomes current
-
+- newest revision returns to `valid` according to revision workflow

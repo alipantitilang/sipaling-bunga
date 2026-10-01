@@ -1,5 +1,7 @@
 # Sipaling Bunga
 
+**Command Protocol: v1.1.0**
+
 Internal data-maturation tool for **Sunday Garden**.
 
 > Tempat cerita ditemukan dan dimatangkan.  
@@ -170,23 +172,34 @@ Code lama tetap tercatat sebagai historical identifier dan tidak boleh digunakan
 
 Rename harus bersifat **atomic/transactional**: jika salah satu bagian gagal, seluruh perubahan harus di-rollback.
 
-### B. Mengubah status output
+### B. Menentukan status output
+
+`/edit` **harus dilakukan terlebih dahulu** sebelum `/correct`.
+
+Gunakan kode singkat status:
 
 ```text
-/edit SGO-ALIP-BLUELOTUS-01 status: accepted
+/edit SGO-ALIP-BLUELOTUS-01 status: r
 ```
 
-atau:
+`r` = `rejected`.
+
+Jika output diterima:
 
 ```text
-/edit SGO-ALIP-BLUELOTUS-01 status: rejected
+/edit SGO-ALIP-BLUELOTUS-01 status: a
 ```
 
-Gunakan:
+`a` = `accepted`.
 
-- `accepted` ketika output sudah diterima Gardener pada level intermediate;
-- `rejected` ketika output perlu diperbaiki dengan `/correct`;
-- pada Level 3, `accepted` akan mempromosikan story menjadi `valid`.
+Di dalam database, status tetap disimpan dengan nama lengkap `rejected` / `accepted`. Kode `r/a` hanya merupakan shorthand command.
+
+Aturan:
+
+- `a` = output diterima Gardener;
+- `r` = output ditolak dan **membuka hak untuk `/correct`**;
+- pada Level 3, `a` akan mempromosikan story menjadi `valid`;
+- `/correct` tanpa status `rejected` harus ditolak.
 
 ### Flower tidak boleh diedit
 
@@ -210,47 +223,76 @@ Jika story lama tidak diperlukan lagi, gunakan `/remove`.
 
 ## 4. `/correct` — Memperbaiki output yang ditolak
 
-Gunakan `/correct` **setelah output berstatus `rejected`**.
+`/correct` **tidak menerima code output lagi**.
 
-Contoh:
+Sebelum menjalankan `/correct`, Developer **wajib** menentukan bahwa output tertentu ditolak melalui `/edit`:
 
 ```text
-/edit SGO-ALIP-BLUELOTUS-01 status: rejected
+/edit SGO-ALIP-BLUELOTUS-01 status: r
 ```
 
-Kemudian Gardener memberikan koreksi:
+Setelah itu, gunakan `/correct` untuk memberikan koreksi. Sistem sudah mengetahui output mana yang sedang dikoreksi dari state story tersebut.
+
+### Koreksi `inspiration`
 
 ```text
 /correct i: Aku ingin inspirasinya lebih sederhana dan tidak terlalu puitis.
 ```
 
-atau untuk `meaning & reason`:
+### Koreksi `meaning & reason`
 
 ```text
-/correct mr: Aku memilih bunga ini karena aku ingin mengingat bahwa aku tetap bisa bertahan meskipun hidup tidak selalu mudah.
+/correct mr: Aku memilih bunga ini karena pengalaman pribadiku membuatku tetap ingin bertahan.
+```
+
+`mr` tetap merupakan **satu field utuh**. Untuk shorthand yang sangat singkat, `r:` juga diterima sebagai alias untuk `mr:` pada `/correct`, tetapi data internal tetap menggunakan `mr`.
+
+```text
+/correct r: Aku ingin alasan ini lebih dekat dengan pengalaman pribadiku.
+```
+
+### Jika keduanya perlu dikoreksi
+
+```text
+/correct i: Aku ingin inspirasinya lebih sederhana. mr: Aku memilih bunga ini karena pengalaman tersebut sangat personal bagiku.
+```
+
+> Penulisan yang benar untuk dua field dalam satu command adalah satu `/correct` dengan dua field:
+
+```text
+/correct i: Aku ingin inspirasinya lebih sederhana. mr: Aku memilih bunga ini karena pengalaman tersebut sangat personal bagiku.
 ```
 
 ### Aturan `/correct`
 
-**Untuk `mr`:** Gardener boleh mengganti isi secara bebas, termasuk:
-
-- wording;
-- dasar alasan;
-- tujuan makna;
-- gaya ekspresi;
-- isi personal.
-
-**Untuk `i`:** Gardener dapat mengoreksi dasar, arah, atau maknanya, sementara AI tetap menjaga gaya editorial Sunday Garden ketika menyusun ulang narasinya.
+- Harus didahului `/edit {output-code} status: r`.
+- Tidak perlu dan tidak boleh memasukkan `output-code` lagi.
+- Hanya story yang sedang berada pada state `rejected` yang dapat dikoreksi.
+- `/correct` dapat memperbaiki `i`, `mr`, atau keduanya sekaligus.
+- Koreksi `mr` dapat mengganti wording, dasar, tujuan makna, gaya ekspresi, maupun isi personal secara bebas karena Gardener adalah pemilik maknanya.
+- Koreksi `i` dapat mengubah basis, arah, atau makna yang ingin disampaikan; AI tetap menjaga gaya editorial Sunday Garden saat menyusun narasi.
 
 `/correct` secara otomatis:
 
 1. menyimpan output yang ditolak ke history;
-2. menerapkan koreksi;
-3. membuat output revisi;
-4. menyimpan hasil baru;
-5. melanjutkan proses ke tahap berikutnya jika datanya sudah memungkinkan.
+2. menerapkan koreksi pada field yang ditentukan;
+3. menghasilkan output baru;
+4. menyimpan output baru ke current data dan history;
+5. melanjutkan proses ke tahap berikutnya jika data sudah memungkinkan.
 
-Tidak perlu memasukkan ulang story dari awal.
+Flow-nya:
+
+```text
+/edit {output-code} status: r
+            ↓
+        /correct
+            ↓
+     generated output baru
+            ↓
+      /edit ... status: a
+            ↓
+       next level / valid
+```
 
 ---
 
@@ -294,28 +336,61 @@ Jangan gunakan `/update` untuk mengganti flower. Flower tetap immutable.
 
 ## 6. `/revision` — Merevisi story yang sudah valid
 
-Gunakan `/revision` untuk story yang **sudah `valid`** tetapi Gardener ingin mengubah atau memperbarui ceritanya.
+`/revision` digunakan hanya untuk story yang **sudah `valid`**.
+
+Berbeda dari `/correct`, `/revision` **wajib menggunakan input code** agar Developer dapat memilih story mana yang ingin direvisi.
+
+Syntax:
+
+```text
+/revision {input-code} i: {input i terbaru}
+/revision {input-code} mr: {input mr terbaru}
+```
 
 Contoh:
 
 ```text
-/revision mr: Aku ingin menjelaskan alasan memilih bunga ini dengan pengalaman yang lebih personal.
+/revision SGI-BEEYA-COMMONSUNFLOWER-01 i: Sekarang aku melihat bunga ini sebagai pengingat untuk tetap ceria dan terbuka terhadap orang lain.
 ```
 
 atau:
 
 ```text
-/revision i: Aku ingin inspirasinya lebih dekat dengan pengalaman yang baru saja aku ceritakan.
+/revision SGI-BEEYA-COMMONSUNFLOWER-01 mr: Aku memilih bunga ini karena pengalaman baru ini membuat maknanya terasa lebih personal.
 ```
 
-Revision berbeda dari `/correct`:
+Jika `i` dan `mr` sama-sama ingin direvisi, keduanya boleh diberikan dalam satu command:
 
-- `/correct` digunakan karena output **ditolak**;
-- `/revision` digunakan karena story **sudah valid**, tetapi Gardener ingin membuat versi baru.
+```text
+/revision SGI-BEEYA-COMMONSUNFLOWER-01 i: Inspirasi terbaru... mr: Makna dan alasan terbaru...
+```
 
-Versi valid sebelumnya tetap disimpan di history sebagai versi lama. Versi terbaru menjadi current.
+### Aturan `/revision`
 
-> Catatan: rename Gardener melalui `/edit ... n:` tetap diperbolehkan karena itu perubahan identitas, bukan perubahan isi cerita.
+- Target **harus berupa input code**, bukan output code.
+- Story yang ditargetkan harus sudah `valid`.
+- Flower tetap immutable dan tidak dapat direvisi.
+- Nama Gardener tetap diubah melalui `/edit {input-code} n:`.
+- Input terbaru menjadi dasar versi baru.
+- Versi valid sebelumnya tidak dihapus; ia dipindahkan menjadi historical version.
+- Setelah revisi berhasil, sistem menghasilkan versi current terbaru dan status kembali `valid` sesuai aturan revision.
+- Revision tetap dicatat sebagai event baru di history.
+
+Flow:
+
+```text
+valid story
+    ↓
+/revision {input-code} i/mr: {input terbaru}
+    ↓
+versi lama → history
+    ↓
+versi baru → current
+    ↓
+valid
+```
+
+`/revision` bukan jalan pintas untuk melewati validasi. Data baru tetap diproses oleh aturan maturity dan generation yang berlaku.
 
 ---
 

@@ -36,3 +36,15 @@
 - Preserved the raw inspiration input in current data and history.
 - Regenerated the current AI inspiration from the new raw input.
 - Story remains `level: 0`, `status: generated`; `mr` remains absent and `i` remains raw.
+## Command protocol revision — 2026-10-02
+
+- `/revision` now requires an explicit input code: `/revision {input-code} i/mr: ...`.
+- `/correct` no longer accepts an output code. It requires a preceding `/edit {output-code} status: r`.
+- `/edit` status shorthand is now `r` = rejected and `a` = accepted. Database status remains normalized as `rejected` / `accepted`.
+- `/correct` supports `i`, `mr`, or both in one command. `r:` is documented as a shorthand alias for canonical `mr:`.
+- Updated README, COMMANDS, command schema, prompts, project state, handoff, and command tests.
+
+## Integrity fix — 2026-10-02
+
+- Synchronized Beeya's `data/index.json` entry with the current `SGI/SGO-BEEYA-COMMONSUNFLOWER-01` codes.
+- Verified every `data/index.json` story entry matches its current story file for `story_id`, `input_code`, and `output_code`.

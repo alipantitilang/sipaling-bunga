@@ -42,6 +42,38 @@ Mature tetap perlu validation.
 Sunday Garden = quiet botanical journal:
 calm, reflective, warm, poetic tetapi restrained, human, editorial.
 
+## Command protocol
+
+### Correction
+
+A correction session starts with:
+
+```text
+/edit {output-code} status: r
+```
+
+Then:
+
+```text
+/correct i: ...
+/correct mr: ...
+```
+
+or both in one command. `/correct` does not accept a code. The selected story is the story whose output was just marked `rejected`.
+
+`r:` may be accepted as a shorthand alias for `mr:` inside `/correct`; canonical field ID remains `mr`.
+
+### Revision
+
+A valid story is revised explicitly by input code:
+
+```text
+/revision {input-code} i: ...
+/revision {input-code} mr: ...
+```
+
+`i` and `mr` may be revised together. Flower remains immutable.
+
 ## Output
 
 `/output` hanya membaca current output. Jangan generate atau mutate saat `/output`.

@@ -34,3 +34,8 @@ Jika ingin flower lain, buat story baru dengan `/input`.
 ## Command discipline
 
 Jangan melakukan mutation tanpa command yang sesuai.
+
+- `/correct` harus diawali `/edit {output-code} status: r`.
+- `/correct` tidak memakai code karena target sudah dibuka oleh rejection gate.
+- `/revision` wajib memakai `{input-code}` agar story yang direvisi selalu eksplisit.
+- `f` tidak pernah boleh berubah.

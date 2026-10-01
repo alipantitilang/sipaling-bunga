@@ -15,5 +15,8 @@ INPUT → Flower Identification → Meaning Retrieval → Connection Mapping
 - `i[r]` is evidence, not confirmed truth.
 - Gardener controls basis/goal/meaning when correcting `i`.
 - Gardener may freely replace `mr` through correction.
+- `/correct` receives no code; its target is the story currently opened for correction by `/edit ... status: r`.
+- `/revision` always receives an input code so the Developer explicitly selects the valid story to revise.
+- `/revision` may update `i`, `mr`, or both; flower remains immutable.
 - AI retains Sunday Garden editorial style.
 - Maturity is field-level and asynchronous.
