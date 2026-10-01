@@ -1,7 +1,7 @@
 {
   "story_id": "c3fec366-bf53-565f-9b19-c3d1a764ac03",
-  "input_code": "SGI-BEEYA-COMMONSUNFLOWER",
-  "output_code": "SGO-BEEYA-COMMONSUNFLOWER",
+  "input_code": "SGI-BEEYA-COMMONSUNFLOWER-01",
+  "output_code": "SGO-BEEYA-COMMONSUNFLOWER-01",
   "gardener": {
     "name": "Beeya",
     "gardener_id": "GDR-BEEYA"
