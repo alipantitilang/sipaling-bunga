@@ -28,3 +28,11 @@
 - Added `/input` story for **Beeya — Common Sunflower**.
 - Created current story data, flower record, history, and index entry.
 - Story remains **Level 0 / generated** with `i: raw`; no personal meaning/reason was inferred as confirmed fact.
+
+
+## Beeya update — 2026-10-01T18:19:49.480453Z
+
+- Updated `SGI-BEEYA-COMMONSUNFLOWER-01` with Gardener-provided `i[r]`.
+- Preserved the raw inspiration input in current data and history.
+- Regenerated the current AI inspiration from the new raw input.
+- Story remains `level: 0`, `status: generated`; `mr` remains absent and `i` remains raw.
