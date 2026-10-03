@@ -1,1 +1,1 @@
-console.log("Sipal­ing Bunga v1.0.0");
+console.log("Sipaling Bunga v1.1.0");

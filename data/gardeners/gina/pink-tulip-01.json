@@ -1,0 +1,32 @@
+{
+  "story_id": "9673d745-3f41-5c93-bf0d-3097331e72d5",
+  "input_code": "SGI-GINA-PINKTULIP-01",
+  "output_code": "SGO-GINA-PINKTULIP-01",
+  "gardener": {
+    "name": "Gina",
+    "gardener_id": "GDR-GINA"
+  },
+  "flower": {
+    "id": "pink-tulip",
+    "name": "Pink Tulip",
+    "immutable": true
+  },
+  "state": {
+    "level": 1,
+    "status": "generated"
+  },
+  "input": {
+    "n": "Gina",
+    "f": "Pink Tulip",
+    "mr": "mencintai seseorang saja sudah menjadi kebahagiaan bagiku. Aku tidak tahu sejauh mana cinta ini akan tumbuh, namun aku ingin menjaganya selama ia masih mekar. Sebab bagiku, dicintai adalah kebahagiaan— tetapi bisa mencintai dengan seluruh hati adalah anugerah.",
+    "i": "Pink tulip mengingatkannya pada cinta dan harapan. Ia pernah berkata: “I'm always happy when I love someone.” Kebahagiaan yang ditemukan dalam kemampuan untuk mencintai."
+  },
+  "output": {
+    "meaning_reason": "aku memilih bunga ini karna mencintai seseorang saja sudah menjadi kebahagiaan bagiku. Aku tidak tahu sejauh mana cinta ini akan tumbuh, namun aku ingin menjaganya selama ia masih mekar. Sebab bagiku, dicintai adalah kebahagiaan— tetapi bisa mencintai dengan seluruh hati adalah anugerah.",
+    "inspiration": "The Pink Tulip.\n\nGina memilih pink tulip karena bunga ini mengingatkannya pada cinta dan harapan. Ada sesuatu yang terasa sederhana dalam caranya memandang cinta: mencintai seseorang saja sudah cukup untuk menghadirkan kebahagiaan.\n\nIa pernah berkata, “I'm always happy when I love someone.” Bagi Gina, kebahagiaan bukan hanya tentang bagaimana cinta itu diterima, tetapi juga tentang kemampuan untuk merasakan dan memberikannya dengan tulus.\n\nMungkin karena itu pink tulip terasa dekat dengannya. Bunga ini membawa kesan lembut tentang cinta yang masih memiliki harapan—tentang perasaan yang ingin dijaga selama ia masih mekar.\n\nSebab bagi Gina, dicintai adalah kebahagiaan. Namun bisa mencintai seseorang dengan seluruh hati adalah anugerah."
+  },
+  "maturity": {
+    "mr": "mature",
+    "i": "raw"
+  }
+}

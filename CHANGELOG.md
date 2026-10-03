@@ -48,3 +48,13 @@
 
 - Synchronized Beeya's `data/index.json` entry with the current `SGI/SGO-BEEYA-COMMONSUNFLOWER-01` codes.
 - Verified every `data/index.json` story entry matches its current story file for `story_id`, `input_code`, and `output_code`.
+## Database import — Gina — 2026-10-03
+
+- Added Gina / Pink Tulip as a new Level 1 story.
+- Stored mature `mr` input and raw `i` input.
+- Generated inspiration from the raw inspiration while preserving Gardener-owned meaning & reason.
+- Added current story, gardener record, flower reference, history, and index entry.
+- Removed redundant `data/flowers/bluelotus.json`; `data/flowers/blue-lotus.json` remains the canonical Blue Lotus reference.
+- Updated `src/index.js` version string to v1.1.0.
+- Removed unused command protocol alias constants; normalization functions remain the active contract.
+

@@ -4,7 +4,7 @@
 
 v1.1.0 command protocol
 
-The repository baseline was v1.0.0; command routing was revised in v1.1.0.
+The repository baseline was v1.0.0; command routing was revised in v1.1.0 and the current protocol is v1.1.0.
 
 ## Purpose
 

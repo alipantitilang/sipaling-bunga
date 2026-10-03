@@ -1,12 +1,3 @@
-export const STATUS_ALIAS = Object.freeze({
-  a: "accepted",
-  r: "rejected",
-});
-
-export const CORRECTION_FIELD_ALIAS = Object.freeze({
-  r: "mr",
-});
-
 export function normalizeStatus(value) {
   if (value === "a" || value === "accepted") return "accepted";
   if (value === "r" || value === "rejected") return "rejected";

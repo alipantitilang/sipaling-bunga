@@ -3,76 +3,12 @@
   "generated_at": "2026-10-01T15:35:28.837189Z",
   "stories": [
     {
-      "story_id": "3b86e622-e223-5f72-968a-af117f1520e9",
-      "gardener": "Alip",
-      "flower": "Blue Lotus",
-      "input_code": "SGI-ALIP-BLUELOTUS-01",
-      "output_code": "SGO-ALIP-BLUELOTUS-01",
-      "path": "data/gardeners/alip/bluelotus-01.json"
-    },
-    {
-      "story_id": "4c293dcf-f8e5-5249-870e-ba87d06f519d",
-      "gardener": "Hyeon Woo",
-      "flower": "Red Rose",
-      "input_code": "SGI-HYEONWOO-REDROSE-01",
-      "output_code": "SGO-HYEONWOO-REDROSE-01",
-      "path": "data/gardeners/hyeonwoo/redrose-01.json"
-    },
-    {
-      "story_id": "c79da54f-baaf-5c94-8023-dfeaecab847b",
-      "gardener": "Leo",
-      "flower": "White Lily",
-      "input_code": "SGI-LEO-WHITELILY-01",
-      "output_code": "SGO-LEO-WHITELILY-01",
-      "path": "data/gardeners/leo/whitelily-01.json"
-    },
-    {
-      "story_id": "6365ef26-8537-5ebf-9876-68ebcd6372b4",
-      "gardener": "Sarah",
-      "flower": "Stargazer Lily",
-      "input_code": "SGI-SARAH-STARGAZERLILY-01",
-      "output_code": "SGO-SARAH-STARGAZERLILY-01",
-      "path": "data/gardeners/sarah/stargazerlily-01.json"
-    },
-    {
       "story_id": "5b8e548e-b3bc-5d6c-a908-967ba2c641f7",
       "gardener": "Aidan",
       "flower": "Evening Primrose",
       "input_code": "SGI-AIDAN-EVENINGPRIMROSE-01",
       "output_code": "SGO-AIDAN-EVENINGPRIMROSE-01",
       "path": "data/gardeners/aidan/eveningprimrose-01.json"
-    },
-    {
-      "story_id": "13fd7cf6-d8a2-5583-a747-d7b389e2fa20",
-      "gardener": "Yip",
-      "flower": "Pink Lily",
-      "input_code": "SGI-YIP-PINKLILY-01",
-      "output_code": "SGO-YIP-PINKLILY-01",
-      "path": "data/gardeners/yip/pinklily-01.json"
-    },
-    {
-      "story_id": "7fd84476-e5ce-5f91-83c8-69ef2b78b24e",
-      "gardener": "Ujangghh",
-      "flower": "Asian Pigeonwings",
-      "input_code": "SGI-UJANGGHH-ASIANPIGEONWINGS-01",
-      "output_code": "SGO-UJANGGHH-ASIANPIGEONWINGS-01",
-      "path": "data/gardeners/ujangghh/asianpigeonwings-01.json"
-    },
-    {
-      "story_id": "34aad5f9-1745-55c4-80a5-597a2461b875",
-      "gardener": "Kevin",
-      "flower": "Cherry Blossom",
-      "input_code": "SGI-KEVIN-CHERRYBLOSSOM-01",
-      "output_code": "SGO-KEVIN-CHERRYBLOSSOM-01",
-      "path": "data/gardeners/kevin/cherryblossom-01.json"
-    },
-    {
-      "story_id": "bdac0207-b3df-54e1-ad5a-63a26969775a",
-      "gardener": "Luizy",
-      "flower": "White Daisy",
-      "input_code": "SGI-LUIZY-WHITEDAISY-01",
-      "output_code": "SGO-LUIZY-WHITEDAISY-01",
-      "path": "data/gardeners/luizy/whitedaisy-01.json"
     },
     {
       "story_id": "3dae7ad2-0bbc-5a31-8f23-4b80af46133e",
@@ -83,20 +19,20 @@
       "path": "data/gardeners/alek/hydrangea-01.json"
     },
     {
-      "story_id": "22999309-b904-5f36-be14-2c82ad442aac",
-      "gardener": "Ifvynn",
-      "flower": "Bearded Iris",
-      "input_code": "SGI-IFVYNN-BEARDEDIRIS-01",
-      "output_code": "SGO-IFVYNN-BEARDEDIRIS-01",
-      "path": "data/gardeners/ifvynn/beardediris-01.json"
+      "story_id": "3b86e622-e223-5f72-968a-af117f1520e9",
+      "gardener": "Alip",
+      "flower": "Blue Lotus",
+      "input_code": "SGI-ALIP-BLUELOTUS-01",
+      "output_code": "SGO-ALIP-BLUELOTUS-01",
+      "path": "data/gardeners/alip/bluelotus-01.json"
     },
     {
-      "story_id": "62aad4a5-2cd4-5675-9200-2fda5e739b69",
-      "gardener": "Linlin",
-      "flower": "Pink Hydrangea",
-      "input_code": "SGI-LINLIN-PINKHYDRANGEA-01",
-      "output_code": "SGO-LINLIN-PINKHYDRANGEA-01",
-      "path": "data/gardeners/linlin/pinkhydrangea-01.json"
+      "story_id": "09e8cab8-434a-5805-84cf-c4b69662ab00",
+      "gardener": "Anggi",
+      "flower": "Assorted Gerberas (yellow, pink, white)",
+      "input_code": "SGI-ANGGI-ASSORTEDGERBERASYELLOWPINKWHITE-01",
+      "output_code": "SGO-ANGGI-ASSORTEDGERBERASYELLOWPINKWHITE-01",
+      "path": "data/gardeners/anggi/assortedgerberasyellowpinkwhite-01.json"
     },
     {
       "story_id": "a73f6637-8e6a-558d-a929-24aa529034d4",
@@ -115,22 +51,6 @@
       "path": "data/gardeners/arka/violet-01.json"
     },
     {
-      "story_id": "09e8cab8-434a-5805-84cf-c4b69662ab00",
-      "gardener": "Anggi",
-      "flower": "Assorted Gerberas (yellow, pink, white)",
-      "input_code": "SGI-ANGGI-ASSORTEDGERBERASYELLOWPINKWHITE-01",
-      "output_code": "SGO-ANGGI-ASSORTEDGERBERASYELLOWPINKWHITE-01",
-      "path": "data/gardeners/anggi/assortedgerberasyellowpinkwhite-01.json"
-    },
-    {
-      "story_id": "1db47954-d35a-52ed-a16e-053823169a26",
-      "gardener": "Devany",
-      "flower": "Casablanca Lily",
-      "input_code": "SGI-DEVANY-CASABLANCALILY-01",
-      "output_code": "SGO-DEVANY-CASABLANCALILY-01",
-      "path": "data/gardeners/devany/casablancalily-01.json"
-    },
-    {
       "story_id": "06bb75c2-c32e-5383-9ec8-cac6ef215892",
       "gardener": "Beatrice",
       "flower": "Magnolia",
@@ -145,6 +65,94 @@
       "input_code": "SGI-BEEYA-COMMONSUNFLOWER-01",
       "output_code": "SGO-BEEYA-COMMONSUNFLOWER-01",
       "path": "data/gardeners/beeya/commonsunflower-01.json"
+    },
+    {
+      "story_id": "1db47954-d35a-52ed-a16e-053823169a26",
+      "gardener": "Devany",
+      "flower": "Casablanca Lily",
+      "input_code": "SGI-DEVANY-CASABLANCALILY-01",
+      "output_code": "SGO-DEVANY-CASABLANCALILY-01",
+      "path": "data/gardeners/devany/casablancalily-01.json"
+    },
+    {
+      "story_id": "9673d745-3f41-5c93-bf0d-3097331e72d5",
+      "gardener": "Gina",
+      "flower": "Pink Tulip",
+      "input_code": "SGI-GINA-PINKTULIP-01",
+      "output_code": "SGO-GINA-PINKTULIP-01",
+      "path": "data/gardeners/gina/pink-tulip-01.json"
+    },
+    {
+      "story_id": "4c293dcf-f8e5-5249-870e-ba87d06f519d",
+      "gardener": "Hyeon Woo",
+      "flower": "Red Rose",
+      "input_code": "SGI-HYEONWOO-REDROSE-01",
+      "output_code": "SGO-HYEONWOO-REDROSE-01",
+      "path": "data/gardeners/hyeonwoo/redrose-01.json"
+    },
+    {
+      "story_id": "22999309-b904-5f36-be14-2c82ad442aac",
+      "gardener": "Ifvynn",
+      "flower": "Bearded Iris",
+      "input_code": "SGI-IFVYNN-BEARDEDIRIS-01",
+      "output_code": "SGO-IFVYNN-BEARDEDIRIS-01",
+      "path": "data/gardeners/ifvynn/beardediris-01.json"
+    },
+    {
+      "story_id": "34aad5f9-1745-55c4-80a5-597a2461b875",
+      "gardener": "Kevin",
+      "flower": "Cherry Blossom",
+      "input_code": "SGI-KEVIN-CHERRYBLOSSOM-01",
+      "output_code": "SGO-KEVIN-CHERRYBLOSSOM-01",
+      "path": "data/gardeners/kevin/cherryblossom-01.json"
+    },
+    {
+      "story_id": "c79da54f-baaf-5c94-8023-dfeaecab847b",
+      "gardener": "Leo",
+      "flower": "White Lily",
+      "input_code": "SGI-LEO-WHITELILY-01",
+      "output_code": "SGO-LEO-WHITELILY-01",
+      "path": "data/gardeners/leo/whitelily-01.json"
+    },
+    {
+      "story_id": "62aad4a5-2cd4-5675-9200-2fda5e739b69",
+      "gardener": "Linlin",
+      "flower": "Pink Hydrangea",
+      "input_code": "SGI-LINLIN-PINKHYDRANGEA-01",
+      "output_code": "SGO-LINLIN-PINKHYDRANGEA-01",
+      "path": "data/gardeners/linlin/pinkhydrangea-01.json"
+    },
+    {
+      "story_id": "bdac0207-b3df-54e1-ad5a-63a26969775a",
+      "gardener": "Luizy",
+      "flower": "White Daisy",
+      "input_code": "SGI-LUIZY-WHITEDAISY-01",
+      "output_code": "SGO-LUIZY-WHITEDAISY-01",
+      "path": "data/gardeners/luizy/whitedaisy-01.json"
+    },
+    {
+      "story_id": "6365ef26-8537-5ebf-9876-68ebcd6372b4",
+      "gardener": "Sarah",
+      "flower": "Stargazer Lily",
+      "input_code": "SGI-SARAH-STARGAZERLILY-01",
+      "output_code": "SGO-SARAH-STARGAZERLILY-01",
+      "path": "data/gardeners/sarah/stargazerlily-01.json"
+    },
+    {
+      "story_id": "7fd84476-e5ce-5f91-83c8-69ef2b78b24e",
+      "gardener": "Ujangghh",
+      "flower": "Asian Pigeonwings",
+      "input_code": "SGI-UJANGGHH-ASIANPIGEONWINGS-01",
+      "output_code": "SGO-UJANGGHH-ASIANPIGEONWINGS-01",
+      "path": "data/gardeners/ujangghh/asianpigeonwings-01.json"
+    },
+    {
+      "story_id": "13fd7cf6-d8a2-5583-a747-d7b389e2fa20",
+      "gardener": "Yip",
+      "flower": "Pink Lily",
+      "input_code": "SGI-YIP-PINKLILY-01",
+      "output_code": "SGO-YIP-PINKLILY-01",
+      "path": "data/gardeners/yip/pinklily-01.json"
     }
   ]
 }
